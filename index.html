@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="bridget">
+        <div class="Bcontainer">
+            <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="#">
+                        <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+    
+                <li class="list">
+                    <a href="#About">
+                        <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                        </span>
+                        <span class="text">About Us</span>
+                    </a>
+                </li>
+    
+                <li class="list">
+                    <a href="#Artists">
+                        <span class="icon">
+                        <ion-icon name="briefcase-outline"></ion-icon>
+                        </span>
+                        <span class="text">Artists</span>
+                    </a>
+                </li>
+    
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                        <ion-icon name="game-controller-outline"></ion-icon>
+                        </span>
+                        <span class="text">Teams</span>
+                    </a>
+                </li>
+    
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                        <ion-icon name="game-controller-outline"></ion-icon>
+                        </span>
+                        <span class="text">Songs</span>
+                    </a>
+                </li>
+    
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                        <ion-icon name="game-controller-outline"></ion-icon>
+                        </span>
+                        <span class="text">Teams</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        
+        </div>
+    
+            
+            <div class="bubbles">
+                
+                <div class="Bimage">
+                    <img src="/images/MUSIC-LOGOZ-removebg-preview.png" alt="" class="imag">
+                    
+                </div>
+                
+                <span style="--i:11;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:24;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:23;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:20;"></span>
+                <span style="--i:22;"></span>
+                <span style="--i:25;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:21;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:26;"></span>
+                <span style="--i:17;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:28;"></span>
+    
+                <span style="--i:11;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:24;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:23;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:20;"></span>
+                <span style="--i:22;"></span>
+                <span style="--i:25;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:21;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:26;"></span>
+                <span style="--i:17;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:28;"></span>
+            </div>
+    
+            <div class="text">
+                <h2>Welcome To</h1>
+                <h1>Muziki Maisha</h2>
+            </div>
+            
+            
+        </div>
+    
+        <script>
+            const list = document.querySelectorAll('.list');
+            function activeLink(){
+                list.forEach((item)=>
+                item.classList.remove('active'));
+                this.classList.add('active');
+            }
+            list.forEach((item)=>
+            item.addEventListener('click', activeLink))
+        </script>
+        <script src="/index.js"></script>
+    
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+       <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    </div>
+    <!-- Joyce -->
+    <div class="joyce">
+
+        <div class="about" id="About">
+            <div class="about_main" id="animated-paragraph">
+                <div class="image">
+                    <img src="/images/music.jpeg" id="animated-image" alt="">
+                </div>
+                <div class="about_text">
+                    <h1><span>About</span>Us</h1> <br>
+                    <h3>Why Choose us? </h3>
+                    <p id="animated-paragraph">
+                        Welcome to our music website, a hub for all things music! Explore, discover and celebrate the
+                        diverse
+                        world of melodies, rhythms, and harmonies with us.
+                        At Muziki Maisha, we are passionate about connecting music enthusiasts from all backgrounds. Join
+                        our vibrant community, and share your love for music with like-minded
+                        individuals.
+                    </p>
+                </div>
+            </div>
+            <!-- <a href="#" class="about_btn">Explore!!</a> -->
+            <button id="button" class="about_btn" id="animated-paragraph">Explore!!</button>
+        </div>
+
+        
+        <script src="index.js">
+        </script>
+    </div>
+    <div class="joy" id="Artists">
+
+   
+    <div class="jcontainer">
+        <div class="jcard"><img src="/Muziki-Maisha/images/brandy-maina.jpg" alt="brandy maina"><h1>Brandy Maina</h1></div>
+        <div class="jcard"><img src="/Muziki-Maisha/images/nikita.jpeg" alt="nikita"><h1>Nikita Kering</h1> </div>
+        <div class="jcard"><img  src="/Muziki-Maisha/images/manseh.jpeg" alt="manaseh"> <h1>Xenia Manasseh</h1></div>
+        <div class="jcard"><img  src="/Muziki-Maisha/images/mutesi.jpg" alt="manaseh"><h1>Bridget Mutesi</h1></div>
+      <div class="jcard"><img  src="/Muziki-Maisha/images/nandy.jpg" alt="manaseh"> <h1>Nandy</h1></div>
+      <div class="jcard"><img src="/Muziki-Maisha/images/mimi-mars.jpg" alt="brandy maina"><h1>Mimi Mars</h1></div>
+      <div class="jcard"><img src="/Muziki-Maisha/images/rema.jpeg" alt="nikita"><h1>Rema Nakamula</h1> </div>
+      <div class="jcard"><img src="/Muziki-Maisha/images/shebah.webp" alt="nikita"><h1>Sheebah Karungi</h1> </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+    
+    
+    
+    
+</body>
+
+
+</html>
